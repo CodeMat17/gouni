@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tech University | Excellence in Computer Science",
+  title: "GOUNI Demo Website",
   description:
-    "Top-ranked university for computer science education and research",
+    "Top-ranked university...",
 };
 
 export default function RootLayout({
