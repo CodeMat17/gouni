@@ -280,13 +280,13 @@ export default function Home() {
           </div>
 
           <button
-            className='absolute left-8 bottom-1  transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
+            className='absolute left-4 -bottom-1  transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
             onClick={prevSlide}>
             <ChevronLeft className='w-6 h-6' />
           </button>
 
           <button
-            className='absolute right-8 bottom-1 transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
+            className='absolute right-4 -bottom-1 transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
             onClick={nextSlide}>
             <ChevronRight className='w-6 h-6' />
           </button>
