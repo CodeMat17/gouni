@@ -491,8 +491,8 @@ export default function Home() {
             <section>
               <div className='flex items-center justify-between mb-6'>
                 <h2 className='text-2xl font-bold'>Featured Courses</h2>
-                <Button variant='link' className='text-primary'>
-                  Browse All Courses
+                <Button asChild variant='link' className='text-primary'>
+              <Link href='/courses'>Browse All Courses</Link>
                 </Button>
               </div>
 
