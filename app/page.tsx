@@ -254,7 +254,7 @@ export default function Home() {
                 <div className='inline-block px-3 py-1 mb-2 text-sm text-white bg-black/30 backdrop-blur-sm rounded-full'>
                   {newsItems[currentSlide].category}
                 </div>
-                <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold text-white drop-shadow-lg'>
+                <h1 className='text-xl sm:text-3xl lg:text-4xl font-bold text-white drop-shadow-lg'>
                   {newsItems[currentSlide].title}
                 </h1>
               </motion.div>
@@ -280,13 +280,13 @@ export default function Home() {
           </div>
 
           <button
-            className='absolute left-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors'
+            className='absolute left-8 bottom-1  transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
             onClick={prevSlide}>
             <ChevronLeft className='w-6 h-6' />
           </button>
 
           <button
-            className='absolute right-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors'
+            className='absolute right-8 bottom-1 transform -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors border'
             onClick={nextSlide}>
             <ChevronRight className='w-6 h-6' />
           </button>
@@ -365,8 +365,9 @@ export default function Home() {
           <div className='lg:w-8/12'>
             <div className='flex items-center justify-between mb-4 pb-2 border-b'>
               <h2 className='text-xl font-bold'>Top Stories</h2>
-              <Button variant='link' size='sm' className='text-primary px-0'>
-                See all
+              <Button asChild variant='link' size='sm' className='text-primary px-0'>
+                <Link href='/news'>See all</Link>
+           
               </Button>
             </div>
 
