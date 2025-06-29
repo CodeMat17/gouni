@@ -296,7 +296,7 @@ export default function Home() {
         <div
           className={`w-full sm:w-full lg:w-[30%] xl:w-1/2 flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-4 p-4 lg:p-6`}>
           {/* Quick Stats - Always visible */}
-          <Card className='w-full sm:w-1/2 lg:w-full xl:w-1/2 flex flex-col justify-center'>
+          <Card className='w-full sm:w-1/2 lg:w-full xl:w-1/2 flex flex-col justify-center dark:border-gray-700'>
             <CardHeader>
               <CardTitle className='text-xl font-bold'>
                 GOUNI at a Glance
@@ -329,7 +329,7 @@ export default function Home() {
           </Card>
 
           {/* Rankings */}
-          <Card className={`w-full sm:w-1/2 lg:hidden xl:block xl:w-1/2`}>
+          <Card className={`w-full sm:w-1/2 lg:hidden xl:block xl:w-1/2 dark:bg-gray-800`}>
             <CardHeader>
               <CardTitle className='text-xl font-bold'>
                 University Rankings
