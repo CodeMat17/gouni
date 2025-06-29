@@ -223,7 +223,7 @@ export default function Home() {
             {newsItems.map((item, index) => (
               <motion.div
                 key={item.id}
-                className={`absolute inset-0 transition-opacity duration-1000 px-0.5 sm:px-3 sm:pt-2 ${
+                className={`absolute inset-0 transition-opacity duration-1000 px-0.5 pt-0.5 sm:px-3 sm:pt-2 ${
                   index === currentSlide ? "z-10" : "z-0"
                 }`}
                 initial={{ opacity: 0 }}
