@@ -20,7 +20,7 @@ export function NewsSearchBar({
       <Input
         type='text'
         placeholder={placeholder}
-        className='w-full py-5 px-6 rounded-full bg-white/20 placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50 pr-14'
+        className='w-full py-5 px-6 rounded-full bg-gray-100 dark:bg-gray-700 placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50 pr-14'
         value={value}
         onChange={(e) => onChange && onChange(e.target.value)}
       />

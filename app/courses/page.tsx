@@ -204,7 +204,7 @@ export default function CoursesPage() {
             <Select
               value={selectedDepartment}
               onValueChange={setSelectedDepartment}>
-              <SelectTrigger className='bg-white h-12 w-full'>
+              <SelectTrigger className='bg-gray-100 dark:bg-gray-700 py-5 w-full'>
                 <SelectValue placeholder='Select department' />
               </SelectTrigger>
               <SelectContent>
