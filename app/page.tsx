@@ -254,7 +254,7 @@ export default function Home() {
                 <div className='inline-block px-3 py-1 mb-2 text-sm text-white bg-black/30 backdrop-blur-sm rounded-full'>
                   {newsItems[currentSlide].category}
                 </div>
-                <h1 className='text-xl sm:text-3xl lg:text-4xl font-bold text-white drop-shadow-lg'>
+                <h1 className='text-xl sm:text-3xl lg:text-4xl font-bold text-white drop-shadow-lg line-clamp-2'>
                   {newsItems[currentSlide].title}
                 </h1>
               </motion.div>
